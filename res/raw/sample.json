@@ -1,0 +1,498 @@
+http://api.wunderground.com/api/50fdfddfe5d7b74d/conditions/forecast/astronomy/lang:SP/q/Argentina/Mar_del_Plata.json
+
+http://api.wunderground.com/api/50fdfddfe5d7b74d/conditions/forecast/astronomy/lang:SP/q/-37.93000031,-57.58000183.json
+http://api.wunderground.com/api/50fdfddfe5d7b74d/conditions/forecast/astronomy/lang:SP/q/autoip.json
+
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"conditions": 1
+		,
+		"forecast": 1
+		,
+		"astronomy": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Mar del Plata, Argentina",
+		"city":"Mar del Plata",
+		"state":"",
+		"state_name":"Argentina",
+		"country":"AG",
+		"country_iso3166":"AR",
+		"zip":"00000",
+		"latitude":"-37.93000031",
+		"longitude":"-57.58000183",
+		"elevation":"21.00000000"
+		},
+		"observation_location": {
+		"full":"Mar del Plata, ",
+		"city":"Mar del Plata",
+		"state":"",
+		"country":"AG",
+		"country_iso3166":"AR",
+		"latitude":"-37.93000031",
+		"longitude":"-57.58000183",
+		"elevation":"69 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"SAZM",
+		"observation_time":"Last Updated on Octubre 3, 12:00 AM ART",
+		"observation_time_rfc822":"Wed, 03 Oct 2012 00:00:00 -0300",
+		"observation_epoch":"1349233200",
+		"local_time_rfc822":"Wed, 03 Oct 2012 01:02:46 -0300",
+		"local_epoch":"1349236966",
+		"local_tz_short":"ART",
+		"local_tz_long":"America/Buenos_Aires",
+		"local_tz_offset":"-0300",
+		"weather":"Muy nublado",
+		"temperature_string":"52 F (11 C)",
+		"temp_f":52,
+		"temp_c":11,
+		"relative_humidity":"94%",
+		"wind_string":"From the East at 9 MPH",
+		"wind_dir":"East",
+		"wind_degrees":90,
+		"wind_mph":9,
+		"wind_gust_mph":0,
+		"wind_kph":15,
+		"wind_gust_kph":0,
+		"pressure_mb":"1018",
+		"pressure_in":"30.06",
+		"pressure_trend":"0",
+		"dewpoint_string":"50 F (10 C)",
+		"dewpoint_f":50,
+		"dewpoint_c":10,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"52 F (11 C)",
+		"feelslike_f":"52",
+		"feelslike_c":"11",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in":"-9999.00",
+		"precip_1hr_metric":"-9999.00",
+		"precip_today_string":"0.00 in (0.0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0.0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/87692.html",
+		"history_url":"http://www.wunderground.com/history/airport/SAZM/2012/10/3/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=-37.93000031,-57.58000183"
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:00 PM ART",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"title":"Miércoles",
+		"fcttext":"Despejado. Alta de 63. Vientos del SE a 5-10 mph.",
+		"fcttext_metric":"Despejado. Alta de 17. Vientos del SE a 10-15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"title":"Noche del Miércoles",
+		"fcttext":"Despejado. Alta de 43. Vientos del NE a 5-10 mph.",
+		"fcttext_metric":"Despejado. Alta de 6. Vientos del NE a 10-15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Jueves",
+		"fcttext":"Parcialmente nublado. Niebla irregular temprana. Alta de 68. Vientos del NNE a 5-15 mph.",
+		"fcttext_metric":"Parcialmente nublado. Niebla irregular temprana. Alta de 20. Vientos del NNE a 10-25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Noche del jueves",
+		"fcttext":"Parcialmente nublado. Alta de 43. Vientos del NNE a 10-15 mph.",
+		"fcttext_metric":"Parcialmente nublado. Alta de 6. Vientos del NNE a 20-25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Viernes",
+		"fcttext":"Muy nublado, y luego nublado. Niebla irregular temprana. Alta de 63. Vientos del NNE a 10-15 mph.",
+		"fcttext_metric":"Muy nublado, y luego nublado. Niebla irregular temprana. Alta de 17. Vientos del NNE a 15-20 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Noche del viernes",
+		"fcttext":"Parcialmente nublado con la probabilidad de lluvia por la noche, y luego nublado. Niebla irregular durante la noche. Alta de 46. Vientos del SE a 10-15 mph.",
+		"fcttext_metric":"Parcialmente nublado con la probabilidad de lluvia por la noche, y luego nublado. Niebla irregular durante la noche. Alta de 8. Vientos del SE a 15-25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":6,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Sábado",
+		"fcttext":"Nublado, y luego parcialmente nublado. Niebla irregular temprana. Alta de 59. Vientos del SSE a 10-15 mph.",
+		"fcttext_metric":"Nublado, y luego parcialmente nublado. Niebla irregular temprana. Alta de 15. Vientos del SSE a 20-25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Noche del sábado",
+		"fcttext":"Parcialmente nublado. Niebla irregular durante la noche. Alta de 46. Vientos del ESE a 10-15 mph.",
+		"fcttext_metric":"Parcialmente nublado. Niebla irregular durante la noche. Alta de 8. Vientos del ESE a 15-25 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1349308800",
+	"pretty":"9:00 PM ART on October 03, 2012",
+	"day":3,
+	"month":10,
+	"year":2012,
+	"yday":276,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"Octubre",
+	"weekday_short":"Mié",
+	"weekday":"Miércoles",
+	"ampm":"PM",
+	"tz_short":"ART",
+	"tz_long":"America/Buenos_Aires"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"conditions":"Despejado",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"skyicon":"sunny",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SE",
+		"degrees": 126
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "ESE",
+		"degrees": 110
+		},
+		"avehumidity": 64,
+		"maxhumidity": 85,
+		"minhumidity": 50
+		}
+		,
+		{"date":{
+	"epoch":"1349395200",
+	"pretty":"9:00 PM ART on October 04, 2012",
+	"day":4,
+	"month":10,
+	"year":2012,
+	"yday":277,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"Octubre",
+	"weekday_short":"Jue",
+	"weekday":"Jueves",
+	"ampm":"PM",
+	"tz_short":"ART",
+	"tz_long":"America/Buenos_Aires"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"68",
+		"celsius":"20"
+		},
+		"low": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"conditions":"Niebla",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"mostlysunny",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "NE",
+		"degrees": 48
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "NE",
+		"degrees": 39
+		},
+		"avehumidity": 64,
+		"maxhumidity": 78,
+		"minhumidity": 41
+		}
+		,
+		{"date":{
+	"epoch":"1349481600",
+	"pretty":"9:00 PM ART on October 05, 2012",
+	"day":5,
+	"month":10,
+	"year":2012,
+	"yday":278,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"Octubre",
+	"weekday_short":"Vie",
+	"weekday":"Viernes",
+	"ampm":"PM",
+	"tz_short":"ART",
+	"tz_long":"America/Buenos_Aires"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Niebla",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "Norte",
+		"degrees": 357
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "Este",
+		"degrees": 83
+		},
+		"avehumidity": 84,
+		"maxhumidity": 100,
+		"minhumidity": 67
+		}
+		,
+		{"date":{
+	"epoch":"1349568000",
+	"pretty":"9:00 PM ART on October 06, 2012",
+	"day":6,
+	"month":10,
+	"year":2012,
+	"yday":279,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"Octubre",
+	"weekday_short":"Sáb",
+	"weekday":"Sábado",
+	"ampm":"PM",
+	"tz_short":"ART",
+	"tz_long":"America/Buenos_Aires"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Niebla",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "Sur",
+		"degrees": 171
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "SE",
+		"degrees": 144
+		},
+		"avehumidity": 84,
+		"maxhumidity": 98,
+		"minhumidity": 69
+		}
+		]
+		}
+	}
+		,	"moon_phase": {
+		"percentIlluminated":"91",
+		"ageOfMoon":"18",
+		"current_time": {
+		"hour":"1",
+		"minute":"02"
+		},
+		"sunrise": {
+		"hour":"6",
+		"minute":"21"
+		},
+		"sunset": {
+		"hour":"18",
+		"minute":"57"
+		}
+	}
+}
